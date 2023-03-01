@@ -20,7 +20,7 @@ while(i < list.length){
     const listItem = document.createElement('li');
     listItem.innerHTML = list[i];
     listDom.append(listItem);
-    console.log(listDom.innerHTML)
+    console.log(listDom.innerHTML);
     
     i++;
 
