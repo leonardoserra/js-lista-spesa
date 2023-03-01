@@ -9,7 +9,7 @@
         comunque di inserire una condizione di uscita, all’interno ciclo while
 */
 
-const list = ['pinoli','castagne','pecorino','mele','uova','plumcake',];
+const list = ['pinoli','castagne','pecorino','mele','uova','plumcake','mozzarelle','pomodori','yoghurt','pizza','acqua'];
 const listDom = document.getElementById('list');
 
 console.log('elementi dell array: ' + list);
