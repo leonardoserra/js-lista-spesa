@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    color: rgb(251, 80, 80);
+    margin: 50px 0;
+    text-decoration: underline;
+}
+ul{
+    font-size: larger;
+    border: 1px solid rgb(255, 106, 76);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    list-style: none;
+    text-align: start;
+}
