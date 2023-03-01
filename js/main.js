@@ -11,13 +11,14 @@
 
 const list = ['pinoli','castagne','pecorino','mele','uova','plumcake',];
 const listDom = document.getElementById('list');
+console.log('elementi dell array: ' + list);
 
 let i;
 while(i < list.length){
     const listElement = document.createElement('li');
     listElement.append(list[i]);
     listDom.innerHTML += listElement;
-
+    console.log(listDom.innerHTML)
     i++;
 
 }
